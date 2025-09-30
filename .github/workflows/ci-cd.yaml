@@ -24,11 +24,6 @@ jobs:
       name: Build      
       run: dotnet build --no-restore
     
-    # This function processes the selected code and generates a documentation comment
-    # in YAML format, as per the user's request. It ensures that only the documentation
-    # comment is returned, without repeating the original code. The documentation
-    # provides a clear and concise explanation of the function's purpose and usage.
-
     
     
   
